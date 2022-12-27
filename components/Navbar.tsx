@@ -108,6 +108,7 @@ export const Navbar: React.FC<NavbarProps> = ({ active }) => {
           {navItems.map((item) => (
             <li key={item.link + item.name}>
               <button
+                className={cs({ "text-orange-500": active === item.link })}
                 onClick={() => {
                   document
                     .querySelector(item.link)
