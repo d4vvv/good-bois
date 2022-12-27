@@ -81,43 +81,39 @@ export default function Home() {
               </p>
             </div>
           </section>
-          <section>
-            <div className="w-full h-screen z-[-1] sticky top-0 bottom-0 overflow-hidden">
-              <Image
-                src={img4}
-                alt="picture of a doggo"
-                className="bg-fixed min-h-screen w-full object-cover z-[-10]"
-                fill
-              />
-            </div>
-            <p className="text-3xl text-white translate-y-[480px] lg:translate-y-[460px] max-w-[400px] px-8">
-              “They [dogs] never talk about themselves but listen to you while
-              you talk about yourself, and keep up an appearance of being
-              interested in the conversation.”
-              <br />
-              <span className="text-xl pt-2"> - Jerome K. Jerome</span>
-            </p>
-          </section>
-          <section>
-            <div
-              className="w-full h-screen z-[-1] sticky top-0 overflow-hidden test"
-              id="quote3"
-            >
-              <Image
-                src={img5}
-                alt="picture of a doggo"
-                className="bg-fixed min-h-screen w-full object-cover z-[-10]"
-                fill
-              />
-            </div>
-            <p
-              className="bg-white mt-96 text-3xl pb-16 pt-4 px-4 text-center test"
-              id="outro"
-            >
-              “A dog is the only thing on earth that loves you more than you
-              love yourself.”<span className="text-xl"> - Josh Billings</span>
-            </p>
-          </section>
+          <div className="w-full h-screen z-[-1] sticky top-0 bottom-0 overflow-hidden">
+            <Image
+              src={img4}
+              alt="picture of a doggo"
+              className="bg-fixed min-h-screen w-full object-cover z-[-10]"
+              fill
+            />
+          </div>
+          <p className="text-3xl text-white translate-y-[480px] lg:translate-y-[460px] max-w-[400px] px-8">
+            “They [dogs] never talk about themselves but listen to you while you
+            talk about yourself, and keep up an appearance of being interested
+            in the conversation.”
+            <br />
+            <span className="text-xl pt-2"> - Jerome K. Jerome</span>
+          </p>
+          <div
+            className="w-full h-screen z-[-1] sticky top-0 overflow-hidden test"
+            id="quote3"
+          >
+            <Image
+              src={img5}
+              alt="picture of a doggo"
+              className="bg-fixed min-h-screen w-full object-cover z-[-10]"
+              fill
+            />
+          </div>
+          <p
+            className="bg-white mt-96 text-3xl pb-16 pt-4 px-4 text-center test"
+            id="outro"
+          >
+            “A dog is the only thing on earth that loves you more than you love
+            yourself.”<span className="text-xl"> - Josh Billings</span>
+          </p>
         </div>
       </main>
     </>
