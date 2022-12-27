@@ -42,6 +42,7 @@ export default function Home() {
               alt="picture of a doggo"
               className="bg-fixed min-h-screen w-full object-cover z-[-10]"
               fill
+              priority
             />
           </div>
           <p
